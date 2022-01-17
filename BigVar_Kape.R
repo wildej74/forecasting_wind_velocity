@@ -1,6 +1,6 @@
 ## Read in data
-setwd("/Users/jimmywilde/Documents/EPFL/PDM")
-wind_tab = read.csv("./data/final_df_grouped.csv")[,-1]
+
+wind_tab = read.csv("...")[,-1]
 wind = as.matrix(wind_tab)
 
 big_var<-function(p){
